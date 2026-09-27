@@ -105,6 +105,13 @@ Todas as tabelas do pipeline foram registradas no Catálogo do Databricks nos sc
 
 Os metadados garantem rastreabilidade (*data lineage*) desde a origem bruta até a camada analítica.
 
+<img width="1918" height="885" alt="image" src="https://github.com/user-attachments/assets/90aac073-e7ce-4fc7-be22-d4700cbb8e0b" />
+
+<img width="1918" height="897" alt="image" src="https://github.com/user-attachments/assets/2b2a494a-64bf-4211-945d-6e25912f63e8" />
+
+<img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/a7bd30b1-71d3-4f07-baed-f2e3aa50003f" />
+<img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/2c84344f-dc97-4ac4-a47f-ccf4fbedba03" />
+
 ---
 
 ## 8. Autoavaliação e Trabalhos Futuros
