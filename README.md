@@ -48,7 +48,8 @@ Cada diretório abaixo representa um MVP entregue e avaliado ao longo do program
 
 ---
 
-## 📌 Contato Profissional
+## 📬 Contato Profissional
 
-Para discussões institucionais, oportunidades executivas ou trocas de experiências sobre Arquitetura, Engenharia de Dados e Inteligência Artificial:
+Para discussões institucionais ou trocas de experiências sobre Arquitetura, Engenharia de Dados e Inteligência Artificial:
 * **LinkedIn:** [Thiago F. O. Pinto](https://www.linkedin.com/in/thiagofopinto/)
+* **GitHub:** [@ThiagoFOPinto](https://github.com/ThiagoFOPinto)
