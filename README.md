@@ -28,7 +28,7 @@ Cada diretório abaixo representa um MVP entregue e avaliado ao longo do program
 * **Foco:** Arquitetura de Dados em Grande Escala, Delta Lake e PySpark no Databricks.
 * **Resumo:** Construção de uma pipeline end-to-end em **Arquitetura Medalhão (Bronze, Silver e Gold)** para dados portuários. Inclui controle de qualidade de dados na Silver, modelagem dimensional em **Esquema Estrela (*Star Schema*)** na Gold e consultas analíticas em Spark SQL.
 * **Acesse a documentação completa:**
-[`mvp_s3_data_engineering/README.md`](./mvp_s3_data_engineering/)
+* [`mvp_s3_data_engineering/README.md`](./mvp_s3_data_engineering/)
 
 ---
 
@@ -36,7 +36,7 @@ Cada diretório abaixo representa um MVP entregue e avaliado ao longo do program
 * **Foco:** Aprendizado de Máquina Supervisionado e Modelagem Preditiva.
 * **Resumo:** Pipeline completa de Ciência de Dados envolvendo pré-processamento, feature engineering, treinamento, comparação e avaliação de algoritmos de Machine Learning para suporte à tomada de decisão operacional.
 * **Acesse a documentação completa:**
-[`mvp_s2_predictive/README.md`](./mvp_s2_predictive/)
+* [`mvp_s2_predictive/README.md`](./mvp_s2_predictive/)
 
 ---
 
@@ -44,12 +44,11 @@ Cada diretório abaixo representa um MVP entregue e avaliado ao longo do program
 * **Foco:** Análise Exploratória de Dados (EDA), Visualização e Storytelling com Dados.
 * **Resumo:** Análise estatística descritiva e diagnóstica para levantamento de hipóteses de negócio, identificação de padrões e construção de visualizações estratégicas.
 * **Acesse a documentação completa:**
-[`mvp_s1_analytics/README.md`](./mvp_s1_analytics/)
+* [`mvp_s1_analytics/README.md`](./mvp_s1_analytics/)
 
 ---
 
-## 🎯 Objetivo de Carreira
-Consolidar uma atuação técnica e estratégica conectando a **Engenharia de Dados**, a **Ciência de Dados** e a **Inteligência de Negócios**, traduzindo dados complexos de infraestrutura e logística em soluções analíticas robustas, escaláveis e de alto valor decisório.
+## 📌 Contato Profissional
 
----
-📬 **Contato:** [LinkedIn](https://www.linkedin.com/in/thiagofopinto/) | [GitHub](https://github.com/thiagofopinto)
+Para discussões institucionais, oportunidades executivas ou trocas de experiências sobre Arquitetura, Engenharia de Dados e Inteligência Artificial:
+* **LinkedIn:** [Thiago F. O. Pinto](https://www.linkedin.com/in/thiagofopinto/)
