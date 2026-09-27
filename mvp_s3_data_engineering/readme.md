@@ -112,6 +112,31 @@ Os metadados garantem rastreabilidade (*data lineage*) desde a origem bruta até
 <img width="1918" height="916" alt="image" src="https://github.com/user-attachments/assets/a7bd30b1-71d3-4f07-baed-f2e3aa50003f" />
 <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/2c84344f-dc97-4ac4-a47f-ccf4fbedba03" />
 
+### 📚 Dicionário de Dados (Catálogo de Dados Transcrito)
+
+#### Tabela Fato: `mvp_s3_gold.fato_infra_operacional`
+| Coluna | Tipo de Dado | Domínio / Regra | Descrição / Papel |
+| :--- | :--- | :--- | :--- |
+| `id_porto` | `IntegerType` | Chave numérica (> 0) | Chave Estrangeira (FK) apontando para `dim_porto` |
+| `id_tempo` | `IntegerType` | Chave numérica (> 0) | Chave Estrangeira (FK) apontando para `dim_tempo` |
+| `dwt_medio` | `DoubleType` | Numérico contínuo (>= 0) | Métricas operacionais de Porte Bruto Médio em toneladas |
+| `dh_processamento_gold` | `TimestampType` | Data/Hora atual | Metadado de auditoria e rastreabilidade da carga Gold |
+
+#### Tabela Dimensão: `mvp_s3_gold.dim_porto`
+| Coluna | Tipo de Dado | Domínio / Regra | Descrição / Papel |
+| :--- | :--- | :--- | :--- |
+| `id_porto` | `IntegerType` | PK Sequencial (1, 2, 3...) | Surrogate Key (Chave Primária) do complexo portuário |
+| `porto` | `StringType` | Texto formatado (`Initcap`) | Nome do complexo portuário brasileiro |
+
+#### Tabela Dimensão: `mvp_s3_gold.dim_tempo`
+| Coluna | Tipo de Dado | Domínio / Regra | Descrição / Papel |
+| :--- | :--- | :--- | :--- |
+| `id_tempo` | `IntegerType` | PK Sequencial (1 a 60) | Surrogate Key (Chave Primária) da dimensão tempo |
+| `ano` | `IntegerType` | Inteiro (ex: 2018 a 2023) | Ano de registro da operação |
+| `mes` | `IntegerType` | Inteiro (1 a 12) | Mês de registro da operação |
+| `trimestre` | `IntegerType` | Inteiro (1 a 4) | Trimestre civil calculado (`ceil(mes/3)`) |
+| `semestre` | `IntegerType` | Inteiro (1 a 2) | Semestre civil calculado (`ceil(mes/6)`) |
+
 ---
 
 ## 8. Autoavaliação e Trabalhos Futuros
