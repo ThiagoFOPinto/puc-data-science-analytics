@@ -27,21 +27,24 @@ Cada diretório abaixo representa um MVP entregue e avaliado ao longo do program
 ### ⚓ [Sprint 3 - MVP de Engenharia de Dados na Nuvem](./mvp_s3_data_engineering/)
 * **Foco:** Arquitetura de Dados em Grande Escala, Delta Lake e PySpark no Databricks.
 * **Resumo:** Construção de uma pipeline end-to-end em **Arquitetura Medalhão (Bronze, Silver e Gold)** para dados portuários. Inclui controle de qualidade de dados na Silver, modelagem dimensional em **Esquema Estrela (*Star Schema*)** na Gold e consultas analíticas em Spark SQL.
-* **Acesse a documentação completa:** [`mvp_s3_data_engineering/README.md`](./mvp_s3_data_engineering/)
+* **Acesse a documentação completa:**
+[`mvp_s3_data_engineering/README.md`](./mvp_s3_data_engineering/)
 
 ---
 
 ### 📈 [Sprint 2 - MVP de Machine Learning e Analytics](./mvp_s2_predictive/)
 * **Foco:** Aprendizado de Máquina Supervisionado e Modelagem Preditiva.
 * **Resumo:** Pipeline completa de Ciência de Dados envolvendo pré-processamento, feature engineering, treinamento, comparação e avaliação de algoritmos de Machine Learning para suporte à tomada de decisão operacional.
-* **Acesse a documentação completa:** [`mvp_s2_predictive/README.md`](./mvp_s2_predictive/)
+* **Acesse a documentação completa:**
+[`mvp_s2_predictive/README.md`](./mvp_s2_predictive/)
 
 ---
 
 ### 🔍 [Sprint 1 - MVP de Análise de Dados e Estatística](./mvp_s1_analytics/)
 * **Foco:** Análise Exploratória de Dados (EDA), Visualização e Storytelling com Dados.
 * **Resumo:** Análise estatística descritiva e diagnóstica para levantamento de hipóteses de negócio, identificação de padrões e construção de visualizações estratégicas.
-* **Acesse a documentação completa:** [`mvp_s1_analytics/README.md`](./mvp_s1_analytics/)
+* **Acesse a documentação completa:**
+[`mvp_s1_analytics/README.md`](./mvp_s1_analytics/)
 
 ---
 
