@@ -41,6 +41,7 @@ Cada diretório abaixo representa um MVP entregue e avaliado ao longo do program
 ### 🔍 [Sprint 1 - MVP de Análise de Dados e Estatística](./mvp_s1_analytics/)
 * **Foco:** Análise Exploratória de Dados (EDA), Visualização e Storytelling com Dados.
 * **Resumo:** Análise estatística descritiva e diagnóstica para levantamento de hipóteses de negócio, identificação de padrões e construção de visualizações estratégicas.
+* **Acesse a documentação completa:** [`mvp_s1_analytics/README.md`](./mvp_s1_analytics/)
 
 ---
 
